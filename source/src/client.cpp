@@ -37,7 +37,7 @@ public:
 int main(int argc, char*argv[]) {
     // validate command line arguments
     if(argc != NUMBOFARGS){
-        cerr << "Incorrect amount of command line arguments,only provide socketPath and fileName" << endl;
+        cerr << "Incorrect amount of command line arguments,only provide IP Address, port and fileName" << endl;
         return EXIT_FAILURE;
     }
 
